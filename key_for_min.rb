@@ -6,10 +6,10 @@ def key_for_min_value(name_hash)
     maybe_key = ""
     maybe_value = ""
  name_hash.each do |key, value|
-   if (maybe_value == "")
+   if maybe_value == ""
      maybe_key = key
      maybe_value = value
-  elsif (value < maybe_value)   
+  elsif value < maybe_value   
     maybe_key = key
     maybe_key = value
   end
