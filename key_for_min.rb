@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
    if (maybe_value == "")
      maybe_key = key
      maybe_value = value
-  elsif (value < 1_value)   
+  elsif (value < maybe_value)   
     maybe_key = key
     maybe_key = value
   end
