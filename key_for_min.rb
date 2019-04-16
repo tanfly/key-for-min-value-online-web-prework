@@ -14,5 +14,5 @@ def key_for_min_value(name_hash)
     maybe_key = value
   end
 end
-  maybe_key 
+  return maybe_key 
 end
